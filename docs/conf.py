@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Counts fwd/rev rxns from CHEMKIN file'
+project = 'Counts fwd/rev rxns from CHEMKIN txt file'
 copyright = "2018, jsaldinger"
 author = 'jsaldinger'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------

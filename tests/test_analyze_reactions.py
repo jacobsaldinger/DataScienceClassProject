@@ -8,24 +8,30 @@ import sys
 import unittest
 from contextlib import contextmanager
 from io import StringIO
+import os
+from analyze_reactions.rxncount import main
 
 from analyze_reactions import main
 
 
-class TestQuote(unittest.TestCase):
-    def testNoArgs(self):
-        test_input = []
-        main(test_input)
+class TestMain(unittest.TestCase):
+    CURRENT_DIR = os.path.dirname(__file__)
+    MAIN_DIR = os.path.join(CURRENT_DIR, '..')
+    PROJ_DIR = os.path.join(MAIN_DIR, 'analyze_reactions')
+    DATA_DIR = os.path.join(PROJ_DIR, 'data')
+    SAMPLE_DATA_FILE_LOC = os.path.join(DATA_DIR, 'test.txt')
+    #Test all arguments are output as a tuple
+    def testallArgs(self):
+        test_input=["-txtfile",self.SAMPLE_DATA_FILE_LOC]
+        desiredoutput=main(test_input)
         with capture_stdout(main, test_input) as output:
-            self.assertTrue("Henry David Thoreau" in output)
-
-
-    def testNoAttribution(self):
-        test_input = ["-n"]
-        main(test_input)
+            self.assertEqual(desiredoutput,(2,2,4))
+    #Test all arguments are output as a tuple
+    def testForwardArgs(self):
+        test_input=["-txtfile",self.SAMPLE_DATA_FILE_LOC,'-f']
+        desiredoutput=main(test_input)
         with capture_stdout(main, test_input) as output:
-            self.assertFalse("Henry David Thoreau" in output)
-
+            self.assertEqual(desiredoutput,(2,None,None))
 
 # Utility functions
 

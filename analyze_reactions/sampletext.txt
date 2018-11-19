@@ -1,0 +1,637 @@
+
+
+                                                      (k = A T**b exp(-E/RT))
+      REACTIONS CONSIDERED                              A        b        E
+
+   1. H+O2<=>O+OH                                    1.92E+14    0.0    16440.0
+      Reverse Arrhenius coefficients:                5.48E+11    0.4     -293.0
+   2. O+H2<=>H+OH                                    5.08E+04    2.7     6292.0
+      Reverse Arrhenius coefficients:                2.67E+04    2.6     4880.0
+   3. OH+H2<=>H+H2O                                  2.16E+08    1.5     3430.0
+      Reverse Arrhenius coefficients:                2.30E+09    1.4    18320.0
+   4. O+H2O<=>OH+OH                                  2.97E+06    2.0    13400.0
+      Reverse Arrhenius coefficients:                1.46E+05    2.1    -2904.0
+   5. H+H+M=>H2+M                                    1.15E+20   -1.7      820.0
+      H2              Enhanced by    2.500E+00
+      H2O             Enhanced by    1.200E+01
+      CO              Enhanced by    1.900E+00
+      CO2             Enhanced by    3.800E+00
+   6. O2+M<=>O+O+M                                   4.52E+17   -0.6   118900.0
+      Reverse Arrhenius coefficients:                6.16E+15   -0.5        0.0
+      H2              Enhanced by    2.500E+00
+      H2O             Enhanced by    1.200E+01
+      AR              Enhanced by    8.300E-01
+      CO              Enhanced by    1.900E+00
+      CO2             Enhanced by    3.800E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+   7. OH+M<=>O+H+M                                   9.88E+17   -0.7   102100.0
+      Reverse Arrhenius coefficients:                4.71E+18   -1.0        0.0
+      H2              Enhanced by    2.500E+00
+      H2O             Enhanced by    1.200E+01
+      AR              Enhanced by    7.500E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+   8. H2O+M<=>H+OH+M                                 1.91E+23   -1.8   118500.0
+      Reverse Arrhenius coefficients:                4.50E+22   -2.0        0.0
+      H2              Enhanced by    7.300E-01
+      H2O             Enhanced by    1.200E+01
+      AR              Enhanced by    3.800E-01
+      CH4             Enhanced by    2.000E+00
+      CH              Enhanced by    3.000E+00
+   9. H+O2(+M)<=>HO2(+M)                             1.48E+12    0.6        0.0
+      Low pressure limit:  0.34820E+17 -0.41100E+00 -0.11150E+04
+      TROE centering:      0.50000E+00  0.10000E-29  0.10000E+31  0.10000+100
+      H2              Enhanced by    1.300E+00
+      H2O             Enhanced by    1.400E+01
+      AR              Enhanced by    6.700E-01
+      CO              Enhanced by    1.900E+00
+      CO2             Enhanced by    3.800E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  10. HO2+H<=>H2+O2                                  1.66E+13    0.0      823.0
+      Reverse Arrhenius coefficients:                3.16E+12    0.3    55510.0
+  11. HO2+H<=>OH+OH                                  7.08E+13    0.0      295.0
+      Reverse Arrhenius coefficients:                2.03E+10    0.7    36840.0
+  12. HO2+O<=>OH+O2                                  3.25E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                3.25E+12    0.3    53280.0
+  13. HO2+OH<=>H2O+O2                                2.89E+13    0.0     -497.0
+      Reverse Arrhenius coefficients:                5.86E+13    0.2    69080.0
+  14. HO2+HO2=>H2O2+O2                               4.20E+14    0.0    11980.0
+      Declared duplicate reaction...
+  15. HO2+HO2=>H2O2+O2                               1.30E+11    0.0    -1629.0
+      Declared duplicate reaction...
+  16. H2O2(+M)<=>OH+OH(+M)                           2.95E+14    0.0    48430.0
+      Low pressure limit:  0.12020E+18  0.00000E+00  0.45500E+05
+      TROE centering:      0.50000E+00  0.10000E-29  0.10000E+31  0.10000+100
+      H2              Enhanced by    2.500E+00
+      H2O             Enhanced by    1.200E+01
+      AR              Enhanced by    6.400E-01
+      CO              Enhanced by    1.900E+00
+      CO2             Enhanced by    3.800E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  17. H2O2+O<=>OH+HO2                                9.55E+06    2.0     3970.0
+      Reverse Arrhenius coefficients:                8.66E+03    2.7    18560.0
+  18. H2O2+OH<=>H2O+HO2                              5.80E+14    0.0     9557.0
+      Reverse Arrhenius coefficients:                1.07E+13    0.6    40450.0
+  19. CO+O(+M)<=>CO2(+M)                             1.80E+10    0.0     2384.0
+      Low pressure limit:  0.13500E+25 -0.27880E+01  0.41910E+04
+      H2              Enhanced by    2.000E+00
+      O2              Enhanced by    6.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    5.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    3.500E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  20. CO+OH<=>CO2+H                                  1.75E+05    1.9     -434.8
+      Reverse Arrhenius coefficients:                4.63E+11    0.8    24990.0
+  21. HCO+M<=>H+CO+M                                 4.80E+17   -1.2    17730.0
+      Reverse Arrhenius coefficients:                3.62E+16   -0.8     2404.0
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    1.200E+01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  22. HCO+O2=>CO+HO2                                 2.71E+10    0.7     -469.0
+  23. O2CHO<=>HCO+O2                                 1.40E+29   -4.5    46300.0
+      Reverse Arrhenius coefficients:                1.20E+11    0.0    -1100.0
+  24. CH2O+O2CHO=>HCO+HO2CHO                         1.99E+12    0.0    11670.0
+  25. HO2CHO<=>OCHO+OH                               5.01E+14    0.0    40150.0
+      Reverse Arrhenius coefficients:                2.87E+06    2.1    -7012.0
+  26. OCHO+M<=>H+CO2+M                               5.32E+14   -0.3    17580.0
+      Reverse Arrhenius coefficients:                7.50E+13    0.0    29000.0
+  27. HCO+H(+M)=>CH2O(+M)                            1.09E+12    0.5     -260.0
+      Low pressure limit:  0.13500E+25 -0.25700E+01  0.14250E+04
+      TROE centering:      0.78000E+00  0.27000E+03  0.28000E+04  0.65700E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  28. CH2O+OH<=>HCO+H2O                              7.82E+07    1.6    -1055.0
+      Reverse Arrhenius coefficients:                4.91E+06    1.8    29030.0
+  29. CH2O+H<=>HCO+H2                                8.05E+07    1.7     2250.0
+      Reverse Arrhenius coefficients:                4.75E+05    2.0    17440.0
+  30. CH2O+O<=>HCO+OH                                2.11E+10    1.0     2550.0
+      Reverse Arrhenius coefficients:                6.54E+07    1.3    16330.0
+  31. CH2O+OH=>HOCH2O                                4.50E+15   -1.1        0.0
+  32. HOCH2O<=>HOCHO+H                               1.00E+14    0.0    14900.0
+      Reverse Arrhenius coefficients:                1.12E+15   -0.3    11500.0
+  33. HOCHO<=>CO2+H2                                 1.50E+16    0.0    57000.0
+      Reverse Arrhenius coefficients:                2.40E+14    0.5    61020.0
+  34. HCO+OH=>HOCHO                                  1.00E+14    0.0        0.0
+  35. CH3O(+M)<=>CH2O+H(+M)                          6.80E+13    0.0    26170.0
+      Low pressure limit:  0.18670E+26 -0.30000E+01  0.24307E+05
+      TROE centering:      0.90000E+00  0.25000E+04  0.13000E+04  0.10000+100
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  36. CH3O+O2=>CH2O+HO2                              6.30E+10    0.0     2600.0
+  37. CH3O+CH3=>CH2O+CH4                             1.20E+13    0.0        0.0
+  38. CH2O+H(+M)<=>CH2OH(+M)                         5.40E+11    0.5     3600.0
+      Low pressure limit:  0.12700E+33 -0.48200E+01  0.65300E+04
+      TROE centering:      0.72000E+00  0.10000E+03  0.13000E+04  0.41600E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  39. CH2OH+O2<=>CH2O+HO2                            2.41E+14    0.0     5017.0
+      Reverse Arrhenius coefficients:                3.15E+13    0.4    25080.0
+  40. OCH2O2H<=>CH2O+HO2                             1.28E+18   -1.8    10460.0
+      Reverse Arrhenius coefficients:                1.50E+11    0.0    11900.0
+  41. OCH2O2H<=>HOCH2O2                              3.00E+11    0.0     8600.0
+      Reverse Arrhenius coefficients:                4.24E+08    0.9    26200.0
+  42. HOCH2O2+HO2=>HOCH2O2H+O2                       3.50E+10    0.0    -3275.0
+  43. HOCH2O2H<=>HOCH2O+OH                           1.02E+21   -1.9    42490.0
+      Reverse Arrhenius coefficients:                1.00E+13    0.0        0.0
+  44. CH3OH(+M)<=>CH3+OH(+M)                         1.90E+16    0.0    91730.0
+      Low pressure limit:  0.29500E+45 -0.73500E+01  0.95460E+05
+      TROE centering:      0.41000E+00  0.28000E+03  0.55000E+04  0.10000+100
+  45. CH3OH+H<=>CH2OH+H2                             1.20E+06    2.4     2583.0
+      Reverse Arrhenius coefficients:                1.39E+04    2.5     8871.0
+  46. CH3OH+O=>CH2OH+OH                              3.88E+05    2.5     3080.0
+  47. CH3OH+OH=>CH3O+H2O                             5.13E+05    2.1     2450.0
+  48. CH3+H(+M)=>CH4(+M)                             2.11E+14    0.0        0.0
+      Low pressure limit:  0.61650E+24 -0.18000E+01  0.00000E+00
+      TROE centering:      0.37000E+00  0.33000E+04  0.61000E+02  0.10000+100
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  49. CH4+H<=>CH3+H2                                 6.14E+05    2.5     9587.0
+      Reverse Arrhenius coefficients:                6.73E+02    3.0     8047.0
+  50. CH4+OH=>CH3+H2O                                7.95E+06    1.9     2690.0
+  51. CH4+O=>CH3+OH                                  4.40E+05    2.5     6577.0
+  52. CH3+OH<=>CH2(S)+H2O                            6.44E+17   -1.3     1417.0
+      Reverse Arrhenius coefficients:                2.37E+16   -0.9     1039.0
+  53. CH3+OH<=>CH3O+H                                7.23E+11    0.0     5484.0
+      Reverse Arrhenius coefficients:                1.56E+16   -0.8    -5821.0
+  54. CH2+H2O=>CH3+OH                                1.48E+09    1.2    16470.0
+  55. CH3+HO2=>CH3O+OH                               1.00E+13    0.0        0.0
+  56. CH3+HO2=>CH4+O2                                3.61E+12    0.0        0.0
+  57. CH3+O<=>CH2O+H                                 5.54E+13    0.1     -136.0
+      Reverse Arrhenius coefficients:                3.87E+15   -0.1    68410.0
+  58. CH3+O2=>CH3O+O                                 1.38E+13    0.0    30520.0
+  59. CH3+O2=>CH2O+OH                                5.87E+11    0.0    13840.0
+  60. CH3+O2(+M)<=>CH3O2(+M)                         1.01E+08    1.6        0.0
+      Low pressure limit:  0.38160E+32 -0.48900E+01  0.34320E+04
+      TROE centering:      0.40000E-01  0.88000E+03  0.25000E+10  0.17860E+10
+  61. CH3O2+CH2O=>CH3O2H+HCO                         1.99E+12    0.0    11670.0
+  62. CH3O2+CH3=>CH3O+CH3O                           1.00E+13    0.0    -1200.0
+  63. CH3O2+HO2=>CH3O2H+O2                           2.47E+11    0.0    -1570.0
+  64. CH3O2+CH3O2=>O2+CH3O+CH3O                      1.40E+16   -1.6     1860.0
+  65. CH3O2+H=>CH3O+OH                               9.60E+13    0.0        0.0
+  66. CH3O2H<=>CH3O+OH                               6.31E+14    0.0    42300.0
+      Reverse Arrhenius coefficients:                2.51E+06    1.9    -2875.0
+  67. CH2(S)<=>CH2                                   1.00E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                7.16E+15   -0.9    11430.0
+  68. CH2(S)+O2=>CO+OH+H                             7.00E+13    0.0        0.0
+  69. CH2(S)+H2<=>CH3+H                              7.00E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                2.02E+16   -0.6    15270.0
+  70. CH2+O=>CO+H+H                                  5.00E+13    0.0        0.0
+  71. CH2+OH<=>CH+H2O                                1.13E+07    2.0     3000.0
+      Reverse Arrhenius coefficients:                3.89E+05    2.5    18940.0
+  72. CH+O2<=>HCO+O                                  3.30E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                9.27E+12    0.2    71210.0
+  73. CO+H=>C+OH                                     1.36E+15    0.0   154300.0
+  74. C+O2<=>CO+O                                    5.00E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                1.07E+14    0.0   138200.0
+  75. CH+H=>C+H2                                     5.00E+13    0.0        0.0
+  76. CH+H2O<=>H+CH2O                                1.71E+13    0.0     -755.0
+      Reverse Arrhenius coefficients:                8.37E+14    0.0    57520.0
+  77. CH3+CH3(+M)=>C2H6(+M)                          8.03E+13    0.0    -2266.7
+      Low pressure limit:  0.37200E+66 -0.13140E+02  0.10158E+06
+      TROE centering:      0.39000E+00  0.10000E+03  0.19000E+04  0.60000E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  78. C2H5+H(+M)=>C2H6(+M)                           5.27E+17   -1.0     1580.0
+      Low pressure limit:  0.19900E+42 -0.70800E+01  0.66850E+04
+      TROE centering:      0.84000E+00  0.13000E+03  0.22000E+04  0.68820E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  79. C2H6+H=>C2H5+H2                                5.74E+07    2.0     7190.0
+  80. C2H6+O=>C2H5+OH                                3.55E+06    2.4     5830.0
+  81. C2H6+OH=>C2H5+H2O                              1.37E+07    1.9      920.0
+  82. C2H6+CH3=>C2H5+CH4                             1.51E-07    6.0     6047.0
+  83. C2H6+CH3O2=>C2H5+CH3O2H                        1.32E+13    0.0    20470.0
+  84. C2H4+H(+M)<=>C2H5(+M)                          3.98E+09    1.3     1292.0
+      Low pressure limit:  0.27910E+19  0.00000E+00  0.75500E+03
+      TROE centering:      0.76000E+00  0.40000E+02  0.10000E+04  0.10000+100
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+  85. C2H5+O2=>C2H4+HO2                              3.00E+20   -2.9     6761.0
+  86. C2H5+O2=>CH3CHO+OH                             1.60E+14   -1.2    10390.0
+  87. C2H5+O2=>C2H5O+O                               1.10E+13   -0.2    27940.0
+  88. C2H5+H<=>CH3+CH3                               1.51E+18   -1.0     4380.0
+      Reverse Arrhenius coefficients:                3.16E+13    0.0    14670.0
+  89. C2H5+O=>CH3CHO+H                               1.10E+14    0.0        0.0
+  90. C2H5+HO2=>C2H5O+OH                             1.10E+13    0.0        0.0
+  91. CH3O2+C2H5=>CH3O+C2H5O                         8.00E+12    0.0    -1000.0
+  92. C2H5O<=>CH3+CH2O                               1.32E+20   -2.0    20750.0
+      Reverse Arrhenius coefficients:                3.00E+11    0.0     6336.0
+  93. C2H5O<=>CH3CHO+H                               5.42E+15   -0.7    22230.0
+      Reverse Arrhenius coefficients:                8.00E+12    0.0     6400.0
+  94. C2H5O2<=>C2H5+O2                               2.36E+41   -8.6    40600.0
+      Reverse Arrhenius coefficients:                5.17E+35   -7.6     6033.0
+  95. C2H5O2+CH2O=>C2H5O2H+HCO                       1.99E+12    0.0    11670.0
+  96. C2H5O2+HO2=>C2H5O2H+O2                         1.75E+10    0.0    -3275.0
+  97. C2H5O2H=>C2H5O+OH                              6.31E+14    0.0    42300.0
+  98. C2H5O2<=>C2H4O2H                               5.64E+47  -11.4    37320.0
+      Reverse Arrhenius coefficients:                6.99E+48  -12.2    25850.0
+  99. C2H5O2=>C2H4+HO2                               3.37E+55  -13.4    44670.0
+ 100. C2H4O2H=>C2H4O1-2+OH                           4.25E+22   -4.2    22350.0
+ 101. C2H4O2H<=>C2H4+HO2                             9.29E+30   -6.1    19930.0
+      Reverse Arrhenius coefficients:                4.49E+28   -5.4    16890.0
+ 102. C2H4O2H<=>C2H5+O2                              3.13E+42  -10.0    27450.0
+      Reverse Arrhenius coefficients:                1.30E+40   -9.4    11030.0
+ 103. C2H4O1-2=>CH3+HCO                              3.63E+13    0.0    57200.0
+ 104. CH3CHO=>C2H4O1-2                               9.01E+10    0.2    80800.0
+ 105. C2H3O1-2<=>CH3CO                               8.50E+14    0.0    14000.0
+      Reverse Arrhenius coefficients:                1.00E+14    0.0    48710.0
+ 106. C2H3O1-2<=>CH2CHO                              1.00E+14    0.0    14000.0
+      Reverse Arrhenius coefficients:                1.24E+15   -0.4    44010.0
+ 107. CH3CHO=>CH3+HCO                                7.69E+20   -1.3    86950.0
+ 108. CH3CHO+H=>CH3CO+H2                             1.11E+13    0.0     3110.0
+ 109. CH3CHO+O=>CH3CO+OH                             5.94E+12    0.0     1868.0
+ 110. CH3CHO+OH=>CH3CO+H2O                           2.00E+06    1.8     1300.0
+ 111. CH3CHO+CH3=>CH3CO+CH4                          1.76E+03    2.8     4950.0
+ 112. CH3CHO+HO2=>CH3CO+H2O2                         3.01E+12    0.0    11930.0
+ 113. CH3O2+CH3CHO=>CH3O2H+CH3CO                     3.01E+12    0.0    11930.0
+ 114. CH3CHO+OH=>CH2CHO+H2O                          1.72E+05    2.4      815.0
+ 115. CH3CO(+M)<=>CH3+CO(+M)                         3.00E+12    0.0    16720.0
+      Low pressure limit:  0.12000E+16  0.00000E+00  0.12518E+05
+ 116. CH3CO3<=>CH3CO+O2                              6.86E+19   -1.9    38530.0
+      Reverse Arrhenius coefficients:                1.20E+11    0.0    -1100.0
+ 117. CH3CO3+HO2=>CH3CO3H+O2                         1.75E+10    0.0    -3275.0
+ 118. H2O2+CH3CO3=>HO2+CH3CO3H                       2.41E+12    0.0     9936.0
+ 119. CH2O+CH3CO3=>HCO+CH3CO3H                       1.99E+12    0.0    11670.0
+ 120. CH3CO3H=>CH3CO2+OH                             5.01E+14    0.0    40150.0
+ 121. CH3CO2+M<=>CH3+CO2+M                           4.40E+15    0.0    10500.0
+      Reverse Arrhenius coefficients:                4.55E+08    1.4    17520.0
+ 122. CH2CHO<=>CH2CO+H                               1.10E+13    0.4    50430.0
+      Reverse Arrhenius coefficients:                5.00E+13    0.0    12300.0
+ 123. CH2CHO+O2=>CH2O+CO+OH                          2.00E+13    0.0     4200.0
+ 124. CH2+CO(+M)=>CH2CO(+M)                          8.10E+11    0.0        0.0
+      Low pressure limit:  0.26900E+34 -0.51100E+01  0.70950E+04
+      TROE centering:      0.59000E+00  0.28000E+03  0.12000E+04  0.51850E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+ 125. CH2CO+H<=>HCCO+H2                              2.00E+14    0.0     8000.0
+      Reverse Arrhenius coefficients:                3.00E+09    0.6    -1100.0
+ 126. CH2CO+OH=>HCCO+H2O                             1.00E+13    0.0     2000.0
+ 127. CH2CO+OH=>CH2OH+CO                             3.73E+12    0.0    -1013.0
+ 128. HCCO+OH=>HCO+HCO                               1.00E+13    0.0        0.0
+ 129. HCCO+O=>H+CO+CO                                8.00E+13    0.0        0.0
+ 130. HCCO+O2=>CO2+HCO                               2.40E+11    0.0     -854.0
+ 131. HCCO<=>CH+CO                                   1.01E+17   -1.0    65190.0
+      Reverse Arrhenius coefficients:                5.00E+13    0.0        0.0
+ 132. C2H4(+M)=>C2H2+H2(+M)                          8.00E+12    0.4    88770.0
+      Low pressure limit:  0.15800E+52 -0.93000E+01  0.97800E+05
+      TROE centering:      0.73000E+00  0.18000E+03  0.10000E+04  0.54170E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+ 133. C2H4+H=>C2H3+H2                                5.07E+07    1.9    12950.0
+ 134. C2H4+O=>CH3+HCO                                8.56E+06    1.9      183.0
+ 135. C2H4+O=>CH2CHO+H                               4.99E+06    1.9      183.0
+ 136. C2H4+OH=>C2H3+H2O                              2.09E+06    2.0     1160.0
+ 137. C2H4+CH3<=>C2H3+CH4                            6.62E+00    3.7     9500.0
+      Reverse Arrhenius coefficients:                1.44E+00    4.0     5472.0
+ 138. C2H4+CH3O2=>C2H3+CH3O2H                        2.23E+12    0.0    17190.0
+ 139. C2H4+HO2=>C2H4O1-2+OH                          2.23E+12    0.0    17190.0
+ 140. C2H3(+M)=>C2H2+H(+M)                           3.23E+12    0.0    37067.8
+      Low pressure limit:  0.38000E+41 -0.72700E+01  0.72200E+04
+      TROE centering:      0.75000E+00  0.99000E+02  0.13000E+04  0.41670E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      C2H6            Enhanced by    3.000E+00
+ 141. C2H3+O2=>CH2O+HCO                              4.58E+16   -1.4     1015.0
+ 142. C2H3+O2=>CH2CHO+O                              3.03E+11    0.3       11.0
+ 143. C2H2+O=>CH2+CO                                 6.94E+06    2.0     1900.0
+ 144. C2H2+O=>HCCO+H                                 1.35E+07    2.0     1900.0
+ 145. C2H2+OH<=>C2H+H2O                              3.37E+07    2.0    14000.0
+      Reverse Arrhenius coefficients:                4.54E+04    2.7     -428.0
+ 146. C2H2+OH=>CH2CO+H                               3.24E+13    0.0    12000.0
+ 147. OH+C2H2<=>H+HCCOH                              5.04E+05    2.3    13500.0
+      Reverse Arrhenius coefficients:                1.90E+11    1.0     6352.0
+ 148. C2H5OH(+M)=>CH2OH+CH3(+M)                      5.71E+23   -1.7    94410.0
+      Low pressure limit:  0.31100E+86 -0.18840E+02  0.11310E+06
+      TROE centering:      0.50000E+00  0.55000E+03  0.83000E+03  0.61000E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    5.000E+00
+      CO              Enhanced by    2.000E+00
+      CO2             Enhanced by    3.000E+00
+ 149. C2H5+OH(+M)=>C2H5OH(+M)                        9.33E+14    0.0     3640.0
+      Low pressure limit:  0.51100E+86 -0.18800E+02  0.11877E+06
+      TROE centering:      0.50000E+00  0.65000E+03  0.80000E+03  0.10000E+16
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    5.000E+00
+      CO              Enhanced by    2.000E+00
+      CO2             Enhanced by    3.000E+00
+ 150. C2H5OH+OH=>PC2H4OH+H2O                         1.74E+11    0.3      600.0
+ 151. C2H5OH+OH=>C2H5O+H2O                           7.46E+11    0.3     1634.0
+ 152. C2H5OH+H=>PC2H4OH+H2                           1.23E+07    1.8     5098.0
+ 153. SC2H4OH+H2=>C2H5OH+H                           6.38E+04    2.1    12250.0
+ 154. C2H5OH+H=>C2H5O+H2                             1.50E+07    1.6     3038.0
+ 155. C2H5OH+O=>PC2H4OH+OH                           9.41E+07    1.7     5459.0
+ 156. SC2H4OH+OH=>C2H5OH+O                           2.44E+04    2.3     9832.0
+ 157. C2H5OH+O=>C2H5O+OH                             1.58E+07    2.0     4448.0
+ 158. C2H5OH+CH3=>C2H5O+CH4                          1.34E+02    2.9     7452.0
+ 159. PC2H4OH<=>C2H4+OH                              1.05E+25   -4.0    30390.0
+      Reverse Arrhenius coefficients:                4.17E+20   -2.8     1240.0
+ 160. SC2H4OH+M=>CH3CHO+H+M                          1.00E+14    0.0    25000.0
+ 161. O2C2H4OH<=>PC2H4OH+O2                          3.90E+16   -1.0    30000.0
+      Reverse Arrhenius coefficients:                1.20E+11    0.0    -1100.0
+ 162. O2C2H4OH=>OH+CH2O+CH2O                         3.12E+09    0.0    18900.0
+ 163. SC2H4OH+O2=>CH3CHO+HO2                         3.81E+06    2.0     1641.0
+ 164. CH3COCH3+OH=>CH3COCH2+H2O                      1.96E+01    3.6    -1128.0
+ 165. CH3COCH3+H=>CH3COCH2+H2                        2.30E+05    2.7     6260.0
+ 166. CH3COCH2<=>CH2CO+CH3                           1.00E+14    0.0    31000.0
+      Reverse Arrhenius coefficients:                1.00E+11    0.0     6000.0
+ 167. CH3COCH2O2<=>CH3COCH2+O2                       2.02E+15   -1.0    24460.0
+      Reverse Arrhenius coefficients:                1.20E+11    0.0    -1100.0
+ 168. HO2+CH3COCH2O2=>CH3COCH2O2H+O2                 1.00E+12    0.0        0.0
+ 169. CH3COCH2O2H=>CH3COCH2O+OH                      1.00E+16    0.0    43000.0
+ 170. CH3COCH2O=>CH3CO+CH2O                          3.73E+20   -2.2    17260.0
+ 171. C2H3CHO=>C2H3+HCO                              2.00E+24   -2.1   103500.0
+ 172. C2H3CHO+H=>C2H3CO+H2                           1.34E+13    0.0     3300.0
+ 173. C2H3CHO+O=>C2H3CO+OH                           5.94E+12    0.0     1868.0
+ 174. C2H3CHO+OH=>C2H3CO+H2O                         9.24E+06    1.5     -962.0
+ 175. C2H3CHO+HO2=>C2H3CO+H2O2                       3.01E+12    0.0    11930.0
+ 176. C2H3CHO+CH3=>C2H3CO+CH4                        2.61E+06    1.8     5911.0
+ 177. C2H3CHO+CH3O2=>C2H3CO+CH3O2H                   3.01E+12    0.0    11930.0
+ 178. C2H3CO<=>C2H3+CO                               1.37E+21   -2.2    39410.0
+      Reverse Arrhenius coefficients:                1.51E+11    0.0     4810.0
+ 179. C2H5CHO+H=>C2H5CO+H2                           4.00E+13    0.0     4200.0
+ 180. C2H5CHO+OH=>C2H5CO+H2O                         2.69E+10    0.8     -340.0
+ 181. C2H5CHO+CH3O2=>C2H5CO+CH3O2H                   3.01E+12    0.0    11930.0
+ 182. C2H5CO<=>C2H5+CO                               2.46E+23   -3.2    17550.0
+      Reverse Arrhenius coefficients:                1.51E+11    0.0     4810.0
+ 183. CH3+CH3O(+M)=>CH3OCH3(+M)                      6.72E+12    0.0    -1152.2
+      Low pressure limit:  0.25410E+71 -0.14430E+02  0.96080E+05
+      TROE centering:      0.83000E+00  0.47000E+10  0.58000E+03  0.67000E+09
+ 184. CH3OCH3+OH=>CH3OCH2+H2O                        6.32E+06    2.0     -651.7
+ 185. CH3OCH3+H=>CH3OCH2+H2                          7.72E+06    2.1     3384.0
+ 186. CH3OCH3+O=>CH3OCH2+OH                          1.86E-03    5.3     -109.0
+ 187. CH3OCH3+CH3=>CH3OCH2+CH4                       1.44E-06    5.7     5699.0
+ 188. CH3OCH2<=>CH2O+CH3                             1.60E+13    0.0    25500.0
+      Reverse Arrhenius coefficients:                2.60E+05    1.9    16670.0
+ 189. CH3OCH2O2<=>CH3OCH2+O2                         4.44E+19   -1.6    36240.0
+      Reverse Arrhenius coefficients:                2.00E+12    0.0        0.0
+ 190. CH3O+CH2O=>CH3OCH2O                            1.00E+11    0.0    11900.0
+ 191. CH3OCH2O<=>CH3OCHO+H                           3.14E+14   -0.5     9048.0
+      Reverse Arrhenius coefficients:                1.00E+13    0.0     7838.0
+ 192. CH3OCH2O2=>CH2OCH2O2H                          6.00E+10    0.0    21580.0
+ 193. CH2OCH2O2H=>OH+CH2O+CH2O                       1.50E+13    0.0    20760.0
+ 194. CH2OCH2O2H+O2=>O2CH2OCH2O2H                    7.00E+11    0.0        0.0
+ 195. OCH2OCHO<=>HOCH2OCO                            1.00E+11    0.0    14000.0
+      Reverse Arrhenius coefficients:                2.75E+08   -0.8    20080.0
+ 196. HOCH2OCO=>HOCH2O+CO                            3.92E+18   -3.3    19100.0
+ 197. HOCH2OCO=>CH2OH+CO2                            4.23E+16   -2.9    21530.0
+ 198. CH3O+HCO=>CH3OCHO                              3.00E+13    0.0        0.0
+ 199. CH3OCHO<=>CH3+OCHO                             3.21E+17   -0.5    79970.0
+      Reverse Arrhenius coefficients:                1.00E+13    0.0        0.0
+ 200. CH3OCHO+OH=>CH2OCHO+H2O                        5.27E+09    1.0     1586.0
+ 201. CH3OCHO+H=>CH2OCHO+H2                          6.65E+05    2.5     6756.0
+ 202. CH3OCO<=>CH3+CO2                               7.98E+12    0.3    15640.0
+      Reverse Arrhenius coefficients:                4.76E+07    1.5    34700.0
+ 203. CH3OCO<=>CH3O+CO                               3.18E+13    0.5    23400.0
+      Reverse Arrhenius coefficients:                1.55E+06    2.0     5730.0
+ 204. CH2OCHO<=>CH2O+HCO                             4.66E+12    0.1    27440.0
+      Reverse Arrhenius coefficients:                1.50E+11    0.0    11900.0
+ 205. C3H8(+M)=>CH3+C2H5(+M)                         1.29E+37   -5.8    97380.0
+      Low pressure limit:  0.56400E+75 -0.15740E+02  0.98714E+05
+      TROE centering:      0.31000E+00  0.50000E+02  0.30000E+04  0.90000E+04
+      H2              Enhanced by    2.000E+00
+      H2O             Enhanced by    6.000E+00
+      AR              Enhanced by    7.000E-01
+      CO              Enhanced by    1.500E+00
+      CO2             Enhanced by    2.000E+00
+      CH4             Enhanced by    2.000E+00
+      CH              Enhanced by    3.000E+00
+ 206. C3H8=>NC3H7+H                                  3.72E+17   -0.4   101200.0
+ 207. C3H8=>IC3H7+H                                  2.35E+18   -0.7    98670.0
+ 208. C3H8+O2=>IC3H7+HO2                             2.00E+13    0.0    49640.0
+ 209. C3H8+O2=>NC3H7+HO2                             6.00E+13    0.0    52290.0
+ 210. H+C3H8=>H2+IC3H7                               1.30E+06    2.4     4471.0
+ 211. H+C3H8=>H2+NC3H7                               1.33E+06    2.5     6760.0
+ 212. C3H8+O=>IC3H7+OH                               5.49E+05    2.5     3140.0
+ 213. C3H8+O=>NC3H7+OH                               3.71E+06    2.4     5505.0
+ 214. C3H8+OH=>NC3H7+H2O                             1.05E+10    1.0     1586.0
+ 215. C3H8+OH=>IC3H7+H2O                             4.67E+07    1.6      -35.0
+ 216. C3H8+HO2=>IC3H7+H2O2                           5.60E+12    0.0    17700.0
+ 217. C3H8+HO2=>NC3H7+H2O2                           1.68E+13    0.0    20430.0
+ 218. CH3+C3H8=>CH4+IC3H7                            6.40E+04    2.2     7520.0
+ 219. CH3+C3H8=>CH4+NC3H7                            9.04E-01    3.6     7154.0
+ 220. C2H5+C3H8=>C2H6+IC3H7                          1.00E+11    0.0    10400.0
+ 221. C2H5+C3H8=>C2H6+NC3H7                          1.00E+11    0.0    10400.0
+ 222. C3H8+CH3O=>NC3H7+CH3OH                         3.00E+11    0.0     7000.0
+ 223. C3H8+CH3O=>IC3H7+CH3OH                         3.00E+11    0.0     7000.0
+ 224. CH3O2+C3H8=>CH3O2H+NC3H7                       1.70E+13    0.0    20460.0
+ 225. CH3O2+C3H8=>CH3O2H+IC3H7                       2.00E+12    0.0    17000.0
+ 226. C2H5O2+C3H8=>C2H5O2H+NC3H7                     1.70E+13    0.0    20460.0
+ 227. C2H5O2+C3H8=>C2H5O2H+IC3H7                     2.00E+12    0.0    17000.0
+ 228. NC3H7O2+C3H8=>NC3H7O2H+NC3H7                   1.70E+13    0.0    20460.0
+ 229. NC3H7O2+C3H8=>NC3H7O2H+IC3H7                   2.00E+12    0.0    17000.0
+ 230. IC3H7O2+C3H8=>IC3H7O2H+NC3H7                   1.70E+13    0.0    20460.0
+ 231. IC3H7O2+C3H8=>IC3H7O2H+IC3H7                   2.00E+12    0.0    17000.0
+ 232. C3H8+CH3CO3=>IC3H7+CH3CO3H                     2.00E+12    0.0    17000.0
+ 233. C3H8+CH3CO3=>NC3H7+CH3CO3H                     1.70E+13    0.0    20460.0
+ 234. C3H8+O2CHO=>NC3H7+HO2CHO                       5.52E+04    2.5    16480.0
+ 235. C3H8+O2CHO=>IC3H7+HO2CHO                       1.48E+04    2.6    13910.0
+ 236. IC3H7<=>H+C3H6                                 5.44E+13    0.0    37960.0
+      Reverse Arrhenius coefficients:                2.64E+13    0.0     2160.0
+ 237. IC3H7+O=>CH3COCH3+H                            4.82E+13    0.0        0.0
+ 238. NC3H7=>CH3+C2H4                                9.97E+40   -8.6    41430.0
+ 239. NC3H7<=>H+C3H6                                 8.78E+39   -8.1    46580.0
+      Reverse Arrhenius coefficients:                2.07E+37   -7.4    12030.0
+ 240. C3H6+O=>C2H5+HCO                               1.58E+07    1.8    -1216.0
+ 241. C3H6+OH=>C3H5-A+H2O                            3.12E+06    2.0     -298.0
+ 242. C3H6+OH=>C3H5-S+H2O                            2.11E+06    2.0     2778.0
+ 243. C3H6+OH=>C3H5-T+H2O                            1.11E+06    2.0     1451.0
+ 244. C3H6+H=>C3H5-A+H2                              1.73E+05    2.5     2492.0
+ 245. C3H6+H=>C3H5-S+H2                              8.04E+05    2.5    12280.0
+ 246. C3H6+H=>C3H5-T+H2                              4.05E+05    2.5     9794.0
+ 247. C3H6+H=>C2H4+CH3                               4.83E+34   -5.8    18500.0
+ 248. C3H6+CH3O2=>C3H5-A+CH3O2H                      3.24E+11    0.0    14900.0
+ 249. C3H6+NC3H7O2=>C3H5-A+NC3H7O2H                  3.24E+11    0.0    14900.0
+ 250. C3H6+IC3H7O2=>C3H5-A+IC3H7O2H                  3.24E+11    0.0    14900.0
+ 251. C3H6OH<=>C3H6+OH                               4.34E+15   -0.8    27910.0
+      Reverse Arrhenius coefficients:                9.93E+11    0.0     -960.0
+ 252. HOC3H6O2<=>C3H6OH+O2                           2.87E+19   -1.9    34290.0
+      Reverse Arrhenius coefficients:                1.20E+11    0.0    -1100.0
+ 253. HOC3H6O2=>CH3CHO+CH2O+OH                       1.25E+10    0.0    18900.0
+ 254. C3H5-A<=>C3H4-A+H                              3.07E+13    0.2    61280.0
+      Reverse Arrhenius coefficients:                2.40E+11    0.7     3007.0
+ 255. C3H5-A+HO2=>C3H5O+OH                           7.00E+12    0.0    -1000.0
+ 256. C3H5-A+CH3O2=>C3H5O+CH3O                       7.00E+12    0.0    -1000.0
+ 257. C3H5-S=>C2H2+CH3                               9.60E+39   -8.2    42030.0
+ 258. C3H5-S<=>C3H4-P+H                              4.19E+15   -0.8    37480.0
+      Reverse Arrhenius coefficients:                5.80E+12    0.0     3100.0
+ 259. C3H5-S+O2=>CH3CHO+HCO                          4.34E+12    0.0        0.0
+ 260. C3H5-T=>C2H2+CH3                               2.16E+40   -8.3    45110.0
+ 261. C3H5-T<=>C3H4-A+H                              3.51E+14   -0.4    40890.0
+      Reverse Arrhenius coefficients:                8.50E+12    0.0     2000.0
+ 262. C3H5-T<=>C3H4-P+H                              1.08E+15   -0.6    38490.0
+      Reverse Arrhenius coefficients:                6.50E+12    0.0     2000.0
+ 263. C3H5-T+O2=>CH3COCH2+O                          3.81E+17   -1.4     5580.0
+ 264. C3H5-T+O2=>CH2O+CH3CO                          3.71E+25   -4.0     7043.0
+ 265. C3H4-A+M=>C3H3+H+M                             1.14E+17    0.0    70000.0
+ 266. C3H4-A=>C3H4-P                                 1.20E+15    0.0    92400.0
+ 267. C3H4-A+OH<=>C3H3+H2O                           1.00E+07    2.0     1000.0
+      Reverse Arrhenius coefficients:                7.92E+04    2.5    32310.0
+ 268. C3H4-A+H<=>C3H3+H2                             2.00E+07    2.0     5000.0
+      Reverse Arrhenius coefficients:                1.49E+04    2.6    21420.0
+ 269. C3H4-P<=>C2H+CH3                               4.20E+16    0.0   100000.0
+      Reverse Arrhenius coefficients:                1.02E+12    0.6    -1600.0
+ 270. C3H4-P+OH<=>C3H3+H2O                           1.00E+07    2.0     1000.0
+      Reverse Arrhenius coefficients:                3.17E+05    2.3    29910.0
+ 271. C3H3+H2=>C3H4-P+H                              5.96E+04    2.5    19020.0
+ 272. C3H3+OH<=>C3H2+H2O                             1.00E+13    0.0        0.0
+      Reverse Arrhenius coefficients:                1.34E+15    0.0    15680.0
+ 273. C3H2+O2=>HCO+HCCO                              5.00E+13    0.0        0.0
+ 274. C2H2+CH3<=>C3H4-P+H                            6.14E+08    1.1    10550.0
+      Reverse Arrhenius coefficients:                1.00E+14    0.0     4000.0
+ 275. C3H3+H=>C3H2+H2                                5.00E+13    0.0        0.0
+ 276. C3H2+O2=>HCCO+CO+H                             5.00E+13    0.0        0.0
+ 277. CH3CHCO+OH=>C2H5+CO2                           1.73E+12    0.0    -1010.0
+ 278. CH3CHCO+OH=>SC2H4OH+CO                         2.00E+12    0.0    -1010.0
+ 279. CH3CHCO+H=>C2H5+CO                             4.40E+12    0.0     1459.0
+ 280. CH3CHCO+O=>CH3CHO+CO                           3.20E+12    0.0     -437.0
+ 281. NC3H7+HO2=>NC3H7O+OH                           7.00E+12    0.0    -1000.0
+ 282. IC3H7+HO2=>IC3H7O+OH                           7.00E+12    0.0    -1000.0
+ 283. CH3O2+NC3H7=>CH3O+NC3H7O                       7.00E+12    0.0    -1000.0
+ 284. CH3O2+IC3H7=>CH3O+IC3H7O                       7.00E+12    0.0    -1000.0
+ 285. NC3H7O2<=>NC3H7+O2                             3.06E+20   -1.6    35710.0
+      Reverse Arrhenius coefficients:                4.52E+12    0.0        0.0
+ 286. IC3H7O2<=>IC3H7+O2                             3.98E+22   -2.2    37900.0
+      Reverse Arrhenius coefficients:                7.54E+12    0.0        0.0
+ 287. NC3H7O2+CH2O=>NC3H7O2H+HCO                     5.60E+12    0.0    13600.0
+ 288. NC3H7O2+CH3CHO=>NC3H7O2H+CH3CO                 2.80E+12    0.0    13600.0
+ 289. IC3H7O2+CH2O=>IC3H7O2H+HCO                     5.60E+12    0.0    13600.0
+ 290. IC3H7O2+CH3CHO=>IC3H7O2H+CH3CO                 2.80E+12    0.0    13600.0
+ 291. NC3H7O2+HO2=>NC3H7O2H+O2                       1.75E+10    0.0    -3275.0
+ 292. IC3H7O2+HO2=>IC3H7O2H+O2                       1.75E+10    0.0    -3275.0
+ 293. C2H3CHO+NC3H7O2=>C2H3CO+NC3H7O2H               2.80E+12    0.0    13600.0
+ 294. C2H3CHO+IC3H7O2=>C2H3CO+IC3H7O2H               2.80E+12    0.0    13600.0
+ 295. NC3H7O2+CH3O2=>NC3H7O+CH3O+O2                  1.40E+16   -1.6     1860.0
+ 296. IC3H7O2+CH3O2=>IC3H7O+CH3O+O2                  1.40E+16   -1.6     1860.0
+ 297. H2+IC3H7O2=>H+IC3H7O2H                         3.01E+13    0.0    26030.0
+ 298. IC3H7O2+CH3CO3=>IC3H7O+CH3CO2+O2               1.40E+16   -1.6     1860.0
+ 299. NC3H7O2+CH3CO3=>NC3H7O+CH3CO2+O2               1.40E+16   -1.6     1860.0
+ 300. IC3H7O2+C2H5O2=>IC3H7O+C2H5O+O2                1.40E+16   -1.6     1860.0
+ 301. NC3H7O2+C2H5O2=>NC3H7O+C2H5O+O2                1.40E+16   -1.6     1860.0
+ 302. IC3H7O2+IC3H7O2=>O2+IC3H7O+IC3H7O              1.40E+16   -1.6     1860.0
+ 303. NC3H7O2+NC3H7O2=>O2+NC3H7O+NC3H7O              1.40E+16   -1.6     1860.0
+ 304. IC3H7O2+NC3H7O2=>IC3H7O+NC3H7O+O2              1.40E+16   -1.6     1860.0
+ 305. IC3H7O2+CH3=>IC3H7O+CH3O                       7.00E+12    0.0    -1000.0
+ 306. IC3H7O2+C2H5=>IC3H7O+C2H5O                     7.00E+12    0.0    -1000.0
+ 307. IC3H7O2+IC3H7=>IC3H7O+IC3H7O                   7.00E+12    0.0    -1000.0
+ 308. IC3H7O2+NC3H7=>IC3H7O+NC3H7O                   7.00E+12    0.0    -1000.0
+ 309. IC3H7O2+C3H5-A=>IC3H7O+C3H5O                   7.00E+12    0.0    -1000.0
+ 310. NC3H7O2+CH3=>NC3H7O+CH3O                       7.00E+12    0.0    -1000.0
+ 311. NC3H7O2+C2H5=>NC3H7O+C2H5O                     7.00E+12    0.0    -1000.0
+ 312. NC3H7O2+IC3H7=>NC3H7O+IC3H7O                   7.00E+12    0.0    -1000.0
+ 313. NC3H7O2+NC3H7=>NC3H7O+NC3H7O                   7.00E+12    0.0    -1000.0
+ 314. NC3H7O2+C3H5-A=>NC3H7O+C3H5O                   7.00E+12    0.0    -1000.0
+ 315. NC3H7O2H=>NC3H7O+OH                            1.50E+16    0.0    42500.0
+ 316. IC3H7O2H=>IC3H7O+OH                            9.45E+15    0.0    42600.0
+ 317. NC3H7O<=>C2H5+CH2O                             4.76E+21   -2.5    24370.0
+      Reverse Arrhenius coefficients:                1.75E+11    0.0    10900.0
+ 318. NC3H7O<=>C2H5CHO+H                             1.11E+11    0.8    21100.0
+      Reverse Arrhenius coefficients:                5.00E+12    0.0     6300.0
+ 319. IC3H7O<=>CH3+CH3CHO                            9.32E+19   -1.7    18780.0
+      Reverse Arrhenius coefficients:                1.75E+11    0.0    10900.0
+ 320. IC3H7O=>CH3COCH3+H                             2.16E+15   -0.5    19110.0
+ 321. NC3H7O2<=>C3H6OOH1-2                           2.00E+12    0.0    26850.0
+      Reverse Arrhenius coefficients:                3.72E+08    0.6    11720.0
+ 322. NC3H7O2<=>C3H6OOH1-3                           3.75E+11    0.0    24400.0
+      Reverse Arrhenius coefficients:                9.05E+11   -0.5     8936.0
+ 323. IC3H7O2<=>C3H6OOH2-1                           6.00E+12    0.0    29400.0
+      Reverse Arrhenius coefficients:                3.74E+10    0.1    11810.0
+ 324. IC3H7O2=>C3H6OOH2-2                            1.23E+35   -7.0    48880.0
+ 325. C3H6OOH1-2=>C3H6O1-2+OH                        4.00E+11    0.0    22000.0
+ 326. C3H6OOH1-3=>C3H6O1-3+OH                        5.00E+10    0.0    15250.0
+ 327. C3H6OOH2-1=>C3H6O1-2+OH                        4.00E+11    0.0    22000.0
+ 328. C3H6OOH1-2<=>C3H6+HO2                          9.78E+15   -1.3    13560.0
+      Reverse Arrhenius coefficients:                1.25E+11    0.0     8600.0
+ 329. C3H6OOH2-1<=>C3H6+HO2                          4.04E+18   -2.0    15830.0
+      Reverse Arrhenius coefficients:                1.25E+11    0.0     8600.0
+ 330. C3H6OOH1-3=>OH+CH2O+C2H4                       3.04E+15   -0.8    27400.0
+ 331. C3H6OOH2-1=>C2H3OOH+CH3                        6.54E+27   -5.1    38320.0
+ 332. C3H6OOH2-2<=>CH3COCH3+OH                       9.00E+14    0.0     1500.0
+      Reverse Arrhenius coefficients:                1.02E+14    0.3    36750.0
+ 333. C3H6OOH1-2O2<=>C3H6OOH1-2+O2                   2.39E+25   -2.9    40100.0
+      Reverse Arrhenius coefficients:                5.00E+12    0.0        0.0
+ 334. C3H6OOH1-3O2<=>C3H6OOH1-3+O2                   2.85E+20   -1.6    35690.0
+      Reverse Arrhenius coefficients:                4.52E+12    0.0        0.0
+ 335. C3H6OOH2-1O2<=>C3H6OOH2-1+O2                   5.23E+22   -2.2    37820.0
+      Reverse Arrhenius coefficients:                4.52E+12    0.0        0.0
+ 336. C3H6OOH1-2O2=>C3KET12+OH                       2.00E+12    0.0    26400.0
+ 337. C3H6OOH1-3O2=>C3KET13+OH                       2.50E+11    0.0    21400.0
+ 338. C3H6OOH2-1O2=>C3KET21+OH                       1.00E+12    0.0    23850.0
+ 339. C3H6OOH2-1O2<=>C3H51-2,3OOH                    3.75E+11    0.0    24400.0
+      Reverse Arrhenius coefficients:                6.81E+09    0.0     9850.0
+ 340. C3H6OOH1-2O2<=>C3H51-2,3OOH                    3.00E+12    0.0    29400.0
+      Reverse Arrhenius coefficients:                5.45E+10    0.0    14850.0
+ 341. C3H51-2,3OOH=>AC3H5OOH+HO2                     2.56E+13   -0.5    17770.0
+ 342. C3H52-1,3OOH<=>C3H6OOH1-3O2                    3.07E+09    0.3    16850.0
+      Reverse Arrhenius coefficients:                2.00E+12    0.0    26850.0
+ 343. C3H52-1,3OOH<=>AC3H5OOH+HO2                    1.15E+14   -0.6    17250.0
+      Reverse Arrhenius coefficients:                1.56E+11    0.1    10200.0
+ 344. C3KET12=>CH3CHO+HCO+OH                         9.45E+15    0.0    43000.0
+ 345. C3KET13=>CH2O+CH2CHO+OH                        1.00E+16    0.0    43000.0
+ 346. C3KET21=>CH2O+CH3CO+OH                         1.00E+16    0.0    43000.0
+ 347. AC3H5OOH=>C3H5O+OH                             3.88E+19   -1.5    45370.0
+ 348. C3H5O<=>C2H3CHO+H                              1.00E+14    0.0    29100.0
+      Reverse Arrhenius coefficients:                1.68E+14   -0.2    19690.0
+ 349. C3H5O=>C2H3+CH2O                               1.46E+20   -2.0    35090.0
+ 350. C3H5O+O2=>C2H3CHO+HO2                          1.00E+12    0.0     6000.0
+ 351. C2H3OOH<=>CH2CHO+OH                            8.40E+14    0.0    43000.0
+      Reverse Arrhenius coefficients:                1.00E+11    0.0        0.0
+ 352. C3H6O1-2<=>C2H4+CH2O                           6.00E+14    0.0    60000.0
+      Reverse Arrhenius coefficients:                2.97E+11    1.0    31080.0
+ 353. C3H6O1-3=>C2H4+CH2O                            6.00E+14    0.0    60000.0

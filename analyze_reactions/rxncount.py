@@ -16,30 +16,6 @@ def warning(*objs):
     """Writes a message to stderr."""
     print("WARNING: ", *objs, file=sys.stderr)
 
-
-def canvas(with_attribution=True):
-    """
-    Placeholder function to show example docstring (NumPy format)
-
-    Replace this function and doc string for your own project
-
-    Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from
-
-    Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution
-    """
-
-    quote = "The code is but a canvas to our imagination."
-    if with_attribution:
-        quote += "\n\t- Adapted from Henry David Thoreau"
-    return quote
-
-
 def parse_cmdline(argv):
     """
     Returns the parsed argument list and return code.
@@ -52,8 +28,9 @@ def parse_cmdline(argv):
     parser = argparse.ArgumentParser()
     # parser.add_argument("-i", "--input_rates", help="The location of the input rates file",
     #                     default=DEF_IRATE_FILE, type=read_input_rates)
-    parser.add_argument("-n", "--no_attribution", help="Whether to include attribution",
-                        action='store_false')
+    parser.add_argument('-txtfile','--fname',help="Input the file path of the .txt file",default='./sampletext.txt')
+    parser.add_argument('-f',"--forward" ,help="Whether to calculate only fwd reactions",action='store_true')
+
     args = None
     try:
         args = parser.parse_args(argv)
@@ -66,12 +43,44 @@ def parse_cmdline(argv):
 
 
 def main(argv=None):
+    """
+
+    Parameters
+    ----------
+    Text file of all reactions
+
+    Returns
+    -------
+    Number of forward reactions, number of reverse reactions, number of total reactions
+    """
     args, ret = parse_cmdline(argv)
     if ret != 0:
         return ret
-    print(canvas(args.no_attribution))
-    return 0  # success
-
+    #Open the text file and combine all text into string set equal to my data
+    with open(str(args.fname), 'r') as myfile:
+        data = myfile.read()
+    #Count the number of forward and reverse reactions, this is done by counting characters
+    #<,=,>
+    #A forward reaction is denoted by '=>'
+    #A reverse reaction is denoted by '='
+    #A two way reaction is denoted by '<=>'
+    #Thus forward rxn= # of '=>' + # of '<=>'
+    #Reverse Reaction=# of '=' + # of '<=' - # of forward rxns
+    #Total reactions=#F orward+# Reverse
+    if args.forward==True:
+        fwdrxn = data.count('=>')
+        print('The number of fwd reactions is: {}\n'.format(fwdrxn))
+        out = fwdrxn, None, None
+    else:
+        fwdrxn=data.count('=>')
+        revrxn = data.count('=')+data.count('<=')-fwdrxn
+        totrxn=fwdrxn+revrxn
+        out=fwdrxn,revrxn,totrxn
+        #Print results
+        print('The number of fwd reactions is: {}\n'.format(fwdrxn))
+        print('The number of rev reactions is: {}\n'.format(revrxn))
+        print('The number of total reactions is: {}\n'.format(totrxn))
+    return out  # success
 
 if __name__ == "__main__":
     status = main()
