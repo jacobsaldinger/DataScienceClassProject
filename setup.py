@@ -14,8 +14,8 @@ setup(
     author='jsaldinger',
     description=DOCLINES[0],
     long_description="\n".join(DOCLINES[2:]),
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    #version=versioneer.get_version(),
+    #cmdclass=versioneer.get_cmdclass(),
     license='MIT',
 
     # Which Python importable modules should be included when your package is installed

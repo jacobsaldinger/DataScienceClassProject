@@ -1,0 +1,7 @@
+Test file
+Not Real Reactions
+There are 2 forward, 2 reverse, 4 total reactions
+
+H20+CO2=H2
+H20+CO2<=>CO
+H20=>2H+O

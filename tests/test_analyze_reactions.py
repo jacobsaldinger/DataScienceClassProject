@@ -9,9 +9,13 @@ import unittest
 from contextlib import contextmanager
 from io import StringIO
 import os
-from analyze_reactions.rxncount import main
 
-from analyze_reactions import main
+
+#from project.DataScienceClassProject.analyze_reactions.rxncount import main
+from analyze_reactions.rxncount import main
+#from ..analyze_reactions.rxncount import parse_cmdline
+
+#from analyze_reactions import main
 
 
 class TestMain(unittest.TestCase):
@@ -20,6 +24,18 @@ class TestMain(unittest.TestCase):
     PROJ_DIR = os.path.join(MAIN_DIR, 'analyze_reactions')
     DATA_DIR = os.path.join(PROJ_DIR, 'data')
     SAMPLE_DATA_FILE_LOC = os.path.join(DATA_DIR, 'test.txt')
+    #Test if argv is none, will give the same output as testallArgs(self)
+    #Test if a None imput is given
+    def testEmpty(self):
+        print (os.getcwd())
+        test_input = None
+        desiredoutput = main(test_input)
+        self.assertEqual(desiredoutput, 2)
+    #Test if a bad file is given
+    def testIOerror(self):
+        test_input = ["-txtfile", 'wrong']
+        desiredoutput = main(test_input)
+        self.assertEqual(desiredoutput, 2)
     #Test all arguments are output as a tuple
     def testallArgs(self):
         test_input=["-txtfile",self.SAMPLE_DATA_FILE_LOC]

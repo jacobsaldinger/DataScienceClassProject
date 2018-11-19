@@ -12,10 +12,6 @@ import sys
 import argparse
 
 
-def warning(*objs):
-    """Writes a message to stderr."""
-    print("WARNING: ", *objs, file=sys.stderr)
-
 def parse_cmdline(argv):
     """
     Returns the parsed argument list and return code.
@@ -24,10 +20,7 @@ def parse_cmdline(argv):
     if argv is None:
         argv = sys.argv[1:]
 
-    # initialize the parser object:
     parser = argparse.ArgumentParser()
-    # parser.add_argument("-i", "--input_rates", help="The location of the input rates file",
-    #                     default=DEF_IRATE_FILE, type=read_input_rates)
     parser.add_argument('-txtfile','--fname',help="Input the file path of the .txt file",default='./sampletext.txt')
     parser.add_argument('-f',"--forward" ,help="Whether to calculate only fwd reactions",action='store_true')
 
@@ -35,8 +28,6 @@ def parse_cmdline(argv):
     try:
         args = parser.parse_args(argv)
     except IOError as e:
-        warning("Problems reading file:", e)
-        parser.print_help()
         return args, 2
 
     return args, 0
@@ -53,12 +44,17 @@ def main(argv=None):
     -------
     Number of forward reactions, number of reverse reactions, number of total reactions
     """
+    print('run')
     args, ret = parse_cmdline(argv)
     if ret != 0:
         return ret
     #Open the text file and combine all text into string set equal to my data
-    with open(str(args.fname), 'r') as myfile:
-        data = myfile.read()
+    try:
+        with open(str(args.fname), 'r') as myfile:
+            data = myfile.read()
+    except:
+        print('Warning file cannot be opened')
+        return 2
     #Count the number of forward and reverse reactions, this is done by counting characters
     #<,=,>
     #A forward reaction is denoted by '=>'
@@ -69,6 +65,7 @@ def main(argv=None):
     #Total reactions=#F orward+# Reverse
     if args.forward==True:
         fwdrxn = data.count('=>')
+        print('Running Code for only Forward Reactions')
         print('The number of fwd reactions is: {}\n'.format(fwdrxn))
         out = fwdrxn, None, None
     else:
@@ -77,11 +74,9 @@ def main(argv=None):
         totrxn=fwdrxn+revrxn
         out=fwdrxn,revrxn,totrxn
         #Print results
+        print('Running code for all Reactions')
         print('The number of fwd reactions is: {}\n'.format(fwdrxn))
         print('The number of rev reactions is: {}\n'.format(revrxn))
         print('The number of total reactions is: {}\n'.format(totrxn))
     return out  # success
 
-if __name__ == "__main__":
-    status = main()
-    sys.exit(status)
