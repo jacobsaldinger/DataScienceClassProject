@@ -44,7 +44,6 @@ def main(argv=None):
     -------
     Number of forward reactions, number of reverse reactions, number of total reactions
     """
-    print('run')
     args, ret = parse_cmdline(argv)
     if ret != 0:
         return ret
@@ -79,4 +78,6 @@ def main(argv=None):
         print('The number of rev reactions is: {}\n'.format(revrxn))
         print('The number of total reactions is: {}\n'.format(totrxn))
     return out  # success
-
+if __name__ == "__main__":
+    status = main()
+    sys.exit(status)
